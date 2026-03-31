@@ -33,6 +33,9 @@ A solução é composta pelos seguintes blocos:
   - Tabelas transacionais utilizadas como fonte
 
 ### 🔹 2. Infraestrutura no Azure
+
+![Resource Group](Imagens/ResourceGroup.png)
+
 - Resource Group dedicado
 - Azure Data Lake Storage Gen2 com containers:
   - **bronze** (dados brutos)
@@ -50,6 +53,9 @@ A solução é composta pelos seguintes blocos:
 - Escrita em Delta Lake
 
 ### 🔹 4. Orquestração no Fabric Data Factory
+
+![Orquestração](PipelineFabric.png).
+
 - Ingestão SQL → ADLS (Bronze)
 - Execução dos notebooks no Databricks
 - Publicação da camada Gold
