@@ -1,0 +1,24 @@
+{
+    "apiVersion": "2026-01-01",
+    "id": "/subscriptions/3c468f6b-a713-4217-9d15-d4b6a758d016/resourceGroups/EngDados/providers/Microsoft.Databricks/accessConnectors/databricks-access-connector",
+    "name": "databricks-access-connector",
+    "type": "microsoft.databricks/accessconnectors",
+    "location": "westus2",
+    "tags": {},
+    "identity": {
+        "principalId": "71a33a2f-c499-42ae-bef8-158c996ef3cc",
+        "tenantId": "a0dd9c94-f755-4487-aa15-a1b752f84b78",
+        "type": "SystemAssigned"
+    },
+    "properties": {
+        "provisioningState": "Succeeded"
+    },
+    "systemData": {
+        "createdBy": "elias_acosta_sp@hotmail.com",
+        "createdByType": "User",
+        "createdAt": "2026-03-26T00:17:18.8741187Z",
+        "lastModifiedBy": "elias_acosta_sp@hotmail.com",
+        "lastModifiedByType": "User",
+        "lastModifiedAt": "2026-03-26T00:17:18.8741187Z"
+    }
+}

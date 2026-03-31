@@ -1,0 +1,45 @@
+{
+    "apiVersion": "2024-11-01-preview",
+    "id": "/subscriptions/3c468f6b-a713-4217-9d15-d4b6a758d016/resourceGroups/EngDados/providers/Microsoft.Sql/servers/sqlsrvengdados/databases/AdventureWorks",
+    "name": "AdventureWorks",
+    "type": "microsoft.sql/servers/databases",
+    "sku": {
+        "name": "GP_S_Gen5",
+        "tier": "GeneralPurpose",
+        "family": "Gen5",
+        "capacity": 1
+    },
+    "kind": "v12.0,user,vcore,serverless",
+    "location": "westus2",
+    "tags": {},
+    "properties": {
+        "collation": "SQL_Latin1_General_CP1_CI_AS",
+        "maxSizeBytes": 34359738368,
+        "status": "Online",
+        "databaseId": "2da04e8e-b020-4522-bfce-ab1d63b6ea8b",
+        "creationDate": "2026-03-25T00:16:21.15Z",
+        "currentServiceObjectiveName": "GP_S_Gen5_1",
+        "requestedServiceObjectiveName": "GP_S_Gen5_1",
+        "defaultSecondaryLocation": "westcentralus",
+        "catalogCollation": "SQL_Latin1_General_CP1_CI_AS",
+        "zoneRedundant": false,
+        "maxLogSizeBytes": 193273528320,
+        "earliestRestoreDate": "2026-03-25T00:32:37Z",
+        "readScale": "Disabled",
+        "currentSku": {
+            "name": "GP_S_Gen5",
+            "tier": "GeneralPurpose",
+            "family": "Gen5",
+            "capacity": 1
+        },
+        "autoPauseDelay": 20,
+        "currentBackupStorageRedundancy": "Local",
+        "requestedBackupStorageRedundancy": "Local",
+        "minCapacity": 0.5,
+        "resumedDate": "2026-03-28T18:07:10.953Z",
+        "maintenanceConfigurationId": "/subscriptions/3c468f6b-a713-4217-9d15-d4b6a758d016/providers/Microsoft.Maintenance/publicMaintenanceConfigurations/SQL_Default",
+        "isLedgerOn": false,
+        "isInfraEncryptionEnabled": false,
+        "availabilityZone": "NoPreference"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "apiVersion": "2024-11-01-preview",
+    "id": "/subscriptions/3c468f6b-a713-4217-9d15-d4b6a758d016/resourceGroups/EngDados/providers/Microsoft.Sql/servers/sqlsrvengdados",
+    "name": "sqlsrvengdados",
+    "type": "microsoft.sql/servers",
+    "kind": "v12.0",
+    "location": "westus2",
+    "tags": {},
+    "properties": {
+        "administratorLogin": "Admin-EliasAcosta",
+        "version": "12.0",
+        "state": "Ready",
+        "fullyQualifiedDomainName": "sqlsrvengdados.database.windows.net",
+        "privateEndpointConnections": [],
+        "minimalTlsVersion": "1.2",
+        "publicNetworkAccess": "Enabled",
+        "restrictOutboundNetworkAccess": "Disabled",
+        "externalGovernanceStatus": "Disabled",
+        "retentionDays": -1
+    }
+}

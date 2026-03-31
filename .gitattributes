@@ -1,0 +1,28 @@
+# Tratar notebooks como binários para evitar conflitos e conversões de linha
+*.ipynb binary
+
+# Garantir que arquivos de código usem LF (padrão Linux)
+*.py text eol=lf
+*.sql text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+
+# Evitar conversões automáticas de CRLF/LF
+* text=auto
+
+# Manter arquivos de dados como binários
+*.csv binary
+*.parquet binary
+*.delta binary
+*.db binary
+
+# Evitar normalização de arquivos de configuração sensíveis
+*.config text eol=lf
+*.env text eol=lf
+
+# Tratar arquivos do Fabric e Databricks como texto normal
+*.dlt text eol=lf
+*.dbc binary

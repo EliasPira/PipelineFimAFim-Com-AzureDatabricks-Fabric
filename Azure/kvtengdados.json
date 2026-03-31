@@ -1,0 +1,113 @@
+{
+    "apiVersion": "2026-02-01",
+    "id": "/subscriptions/3c468f6b-a713-4217-9d15-d4b6a758d016/resourceGroups/EngDados/providers/Microsoft.KeyVault/vaults/kvtengdados",
+    "name": "kvtengdados",
+    "type": "microsoft.keyvault/vaults",
+    "location": "westus2",
+    "tags": {},
+    "properties": {
+        "sku": {
+            "family": "A",
+            "name": "standard"
+        },
+        "tenantId": "a0dd9c94-f755-4487-aa15-a1b752f84b78",
+        "networkAcls": {
+            "bypass": "None",
+            "defaultAction": "Allow",
+            "ipRules": [],
+            "virtualNetworkRules": []
+        },
+        "accessPolicies": [
+            {
+                "tenantId": "a0dd9c94-f755-4487-aa15-a1b752f84b78",
+                "objectId": "fa90a1f7-602b-452a-90b8-e612531dfc4f",
+                "permissions": {
+                    "keys": [
+                        "Get",
+                        "List",
+                        "Update",
+                        "Create",
+                        "Import",
+                        "Delete",
+                        "Recover",
+                        "Backup",
+                        "Restore",
+                        "GetRotationPolicy",
+                        "SetRotationPolicy",
+                        "Rotate"
+                    ],
+                    "secrets": [
+                        "Get",
+                        "List",
+                        "Set",
+                        "Delete",
+                        "Recover",
+                        "Backup",
+                        "Restore"
+                    ],
+                    "certificates": [
+                        "Get",
+                        "List",
+                        "Update",
+                        "Create",
+                        "Import",
+                        "Delete",
+                        "Recover",
+                        "Backup",
+                        "Restore",
+                        "ManageContacts",
+                        "ManageIssuers",
+                        "GetIssuers",
+                        "ListIssuers",
+                        "SetIssuers",
+                        "DeleteIssuers"
+                    ]
+                }
+            },
+            {
+                "tenantId": "a0dd9c94-f755-4487-aa15-a1b752f84b78",
+                "objectId": "fa87cc1c-e3cf-4850-8d1d-226274e0ed07",
+                "permissions": {
+                    "keys": [],
+                    "secrets": [
+                        "Get",
+                        "List",
+                        "Set",
+                        "Delete",
+                        "Recover",
+                        "Backup",
+                        "Restore"
+                    ],
+                    "certificates": []
+                }
+            },
+            {
+                "tenantId": "a0dd9c94-f755-4487-aa15-a1b752f84b78",
+                "objectId": "4f5943fb-f559-4076-ac2c-6f801ba165f5",
+                "permissions": {
+                    "secrets": [
+                        "get",
+                        "list"
+                    ]
+                }
+            }
+        ],
+        "enabledForDeployment": false,
+        "enabledForDiskEncryption": false,
+        "enabledForTemplateDeployment": false,
+        "enableSoftDelete": true,
+        "softDeleteRetentionInDays": 90,
+        "enableRbacAuthorization": false,
+        "vaultUri": "https://kvtengdados.vault.azure.net/",
+        "provisioningState": "Succeeded",
+        "publicNetworkAccess": "Enabled"
+    },
+    "systemData": {
+        "createdBy": "elias_acosta_sp@hotmail.com",
+        "createdByType": "User",
+        "createdAt": "2026-03-25T00:58:09.112Z",
+        "lastModifiedBy": "elias_acosta_sp@hotmail.com",
+        "lastModifiedByType": "User",
+        "lastModifiedAt": "2026-03-25T01:45:00.544Z"
+    }
+}

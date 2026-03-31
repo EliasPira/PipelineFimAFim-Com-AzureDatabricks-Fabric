@@ -1,0 +1,84 @@
+/subscriptions/3c468f6b-a713-4217-9d15-d4b6a758d016/resourceGroups/EngDados/providers/Microsoft.Storage/storageAccounts/stoengdados
+
+{
+    "apiVersion": "2025-08-01",
+    "id": "/subscriptions/3c468f6b-a713-4217-9d15-d4b6a758d016/resourceGroups/EngDados/providers/Microsoft.Storage/storageAccounts/stoengdados",
+    "name": "stoengdados",
+    "type": "microsoft.storage/storageaccounts",
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "location": "westus2",
+    "tags": {},
+    "properties": {
+        "allowCrossTenantDelegationSas": false,
+        "dualStackEndpointPreference": {
+            "defaultDualStackEndpoints": false,
+            "publishIpv4Endpoint": false,
+            "publishIpv6Endpoint": false
+        },
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2026-03-25T01:08:05.1367529Z",
+            "key2": "2026-03-25T01:08:05.1367529Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "isSftpEnabled": false,
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "isHnsEnabled": true,
+        "networkAcls": {
+            "ipv6Rules": [],
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2026-03-25T01:08:05.1477144Z"
+                },
+                "table": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2026-03-25T01:08:05.1477144Z"
+                },
+                "queue": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2026-03-25T01:08:05.1477144Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2026-03-25T01:08:05.1477144Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2026-03-25T01:08:04.8202652Z",
+        "primaryEndpoints": {
+            "dfs": "https://stoengdados.dfs.core.windows.net/",
+            "web": "https://stoengdados.z5.web.core.windows.net/",
+            "blob": "https://stoengdados.blob.core.windows.net/",
+            "queue": "https://stoengdados.queue.core.windows.net/",
+            "table": "https://stoengdados.table.core.windows.net/",
+            "file": "https://stoengdados.file.core.windows.net/"
+        },
+        "primaryLocation": "westus2",
+        "statusOfPrimary": "available"
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "apiVersion": "2026-01-01",
+    "id": "/subscriptions/3c468f6b-a713-4217-9d15-d4b6a758d016/resourceGroups/EngDados/providers/Microsoft.Databricks/workspaces/dbc-engdados",
+    "name": "dbc-engdados",
+    "type": "microsoft.databricks/workspaces",
+    "sku": {
+        "name": "premium"
+    },
+    "location": "westus2",
+    "tags": {},
+    "properties": {
+        "computeMode": "Hybrid",
+        "defaultCatalog": {
+            "initialType": "UnityCatalog",
+            "initialName": ""
+        },
+        "isUcEnabled": true,
+        "managedResourceGroupId": "/subscriptions/3c468f6b-a713-4217-9d15-d4b6a758d016/resourceGroups/databricks-rg-dbc-engdados-zxtzogusvqhem",
+        "parameters": {
+            "enableFedRampCertification": {
+                "type": "Bool",
+                "value": false
+            },
+            "enableNoPublicIp": {
+                "type": "Bool",
+                "value": true
+            },
+            "prepareEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "requireInfrastructureEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "resourceTags": {
+                "type": "Object",
+                "value": {
+                    "application": "databricks",
+                    "databricks-environment": "true"
+                }
+            },
+            "storageAccountName": {
+                "type": "String",
+                "value": "dbstoragentgl7y3kq4vea"
+            },
+            "storageAccountSkuName": {
+                "type": "String",
+                "value": "Standard_ZRS"
+            }
+        },
+        "provisioningState": "Succeeded",
+        "authorizations": [
+            {
+                "principalId": "9a74af6f-d153-4348-988a-e2672920bee9",
+                "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+            }
+        ],
+        "createdBy": {
+            "oid": "fa90a1f7-602b-452a-90b8-e612531dfc4f",
+            "puid": "00067FFE89CE2B4D",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "updatedBy": {
+            "oid": "fa90a1f7-602b-452a-90b8-e612531dfc4f",
+            "puid": "00067FFE89CE2B4D",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "workspaceId": "7405605509812525",
+        "workspaceUrl": "adb-7405605509812525.5.azuredatabricks.net",
+        "createdDateTime": "2026-03-25T00:32:44.5094101Z"
+    },
+    "systemData": {
+        "createdBy": "elias_acosta_sp@hotmail.com",
+        "createdByType": "User",
+        "createdAt": "2026-03-25T00:32:44.4351993Z",
+        "lastModifiedBy": "elias_acosta_sp@hotmail.com",
+        "lastModifiedByType": "User",
+        "lastModifiedAt": "2026-03-25T00:32:44.4351993Z"
+    }
+}

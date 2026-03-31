@@ -1,0 +1,92 @@
+# -----------------------------
+# Arquivos de sistema / OS
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+dist/
+build/
+env/
+venv/
+.venv/
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+.history/
+
+# -----------------------------
+# Databricks
+# -----------------------------
+# Arquivos exportados do Databricks
+*.dbc
+
+# Checkpoints e metadados temporários
+**/_checkpoint/
+**/_checkpoints/
+**/.ipynb_checkpoints/
+
+# Logs e arquivos temporários
+databricks_logs/
+logs/
+
+# -----------------------------
+# Notebooks
+# -----------------------------
+# Arquivos de backup automáticos
+*.ipynb_checkpoints
+
+# -----------------------------
+# Fabric / Pipelines
+# -----------------------------
+*.pbix
+*.pbip
+*.rdl
+*.rds
+*.bim
+*.pbit
+
+# -----------------------------
+# Arquivos de dados (não versionar)
+# -----------------------------
+*.csv
+*.parquet
+*.delta
+*.jsonl
+*.db
+*.sqlite
+*.bak
+
+# -----------------------------
+# Credenciais e variáveis sensíveis
+# -----------------------------
+*.env
+.env.*
+secrets.json
+keyvault.json
+
+# -----------------------------
+# Terraform / IaC (opcional)
+# -----------------------------
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# -----------------------------
+# Node (caso use ferramentas auxiliares)
+# -----------------------------
+node_modules/
+npm-debug.log
+yarn-error.log

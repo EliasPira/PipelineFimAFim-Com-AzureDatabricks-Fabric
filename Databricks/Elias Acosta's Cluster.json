@@ -1,0 +1,28 @@
+{
+    "autoscale": {
+        "min_workers": 1,
+        "max_workers": 3
+    },
+    "cluster_name": "Elias Acosta's Cluster",
+    "spark_version": "15.4.x-scala2.12",
+    "spark_conf": {},
+    "azure_attributes": {
+        "first_on_demand": 1,
+        "availability": "SPOT_WITH_FALLBACK_AZURE",
+        "spot_bid_max_price": -1
+    },
+    "node_type_id": "Standard_D2ds_v6",
+    "driver_node_type_id": "Standard_D2ds_v6",
+    "ssh_public_keys": [],
+    "custom_tags": {},
+    "spark_env_vars": {},
+    "autotermination_minutes": 30,
+    "enable_elastic_disk": true,
+    "init_scripts": [],
+    "single_user_name": "elias_acosta_sp@hotmail.com",
+    "enable_local_disk_encryption": false,
+    "data_security_mode": "SINGLE_USER",
+    "runtime_engine": "PHOTON",
+    "assigned_principal": "user:elias_acosta_sp@hotmail.com",
+    "cluster_id": "0325-013135-jewospmb"
+}
