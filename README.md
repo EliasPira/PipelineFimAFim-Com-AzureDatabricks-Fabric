@@ -22,7 +22,7 @@ O objetivo é demonstrar um fluxo **fim a fim**, desde a ingestão dos dados tra
 
 # 🏗️ Arquitetura da Solução
 
-![Arquitetura](.Imagens/Arquitetura.png)
+![Arquitetura](Imagens/Arquitetura.png)
 
 A solução é composta pelos seguintes blocos:
 
