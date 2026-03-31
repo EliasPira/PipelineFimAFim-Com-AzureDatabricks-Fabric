@@ -22,6 +22,8 @@ O objetivo é demonstrar um fluxo **fim a fim**, desde a ingestão dos dados tra
 
 # 🏗️ Arquitetura da Solução
 
+![Resource Group](./images/resource-group.png)
+
 A solução é composta pelos seguintes blocos:
 
 ### 🔹 1. Origem de Dados
