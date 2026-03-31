@@ -54,7 +54,7 @@ A solução é composta pelos seguintes blocos:
 
 ### 🔹 4. Orquestração no Fabric Data Factory
 
-![Orquestração](PipelineFabric.png).
+![Orquestração](PipelineFabric.png)
 
 - Ingestão SQL → ADLS (Bronze)
 - Execução dos notebooks no Databricks
